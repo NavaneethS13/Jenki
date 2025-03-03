@@ -4,9 +4,9 @@ public class GFG {
 	{
 		int radius;
 		double pi = 3.142, area;
-		radius = 5;
+		int radius = 5;
 		// calculating the area of the circle
-		area = pi * radius * radius;
+		float area = pi * radius * radius;
 		// printing the area of the circle
 		System.out.println("Area of circle is :" + area);
 	}
